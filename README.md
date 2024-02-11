@@ -8,5 +8,5 @@ This game is my first project using Python.
 
 **Coming Soon!**
   - Currently working on adding different difficulty's
-  - **COMPLETED** ✅ Currently working on adding the "play again" if you miss all 3 guesses.
+  - **COMPLETED** ✅ ~~Currently working on adding the "play again" if you miss all 3 guesses.~~
 
