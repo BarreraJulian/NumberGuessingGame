@@ -12,18 +12,24 @@ while game_ended is False:
             print("Please pick a number between 1-10!")
             continue
         if players_number != dealers_number:
-            print("You got it wrong! You have", numer_of_guesses, "guesses left!")
             numer_of_guesses = numer_of_guesses - 1
-            if numer_of_guesses == -1:
-                 print("Thanks for playing! Goodbye!")
-                 break
+            print("You got it wrong! You have", numer_of_guesses, "guesses left!")
+            if numer_of_guesses == 0:
+               play_again = input("You ran out of guesses! Do you want to play again?")
+               if play_again == "Yes":
+                    numer_of_guesses = 3
+                    dealers_number = random.randint(1,10)
+                    continue
+               else:
+                    print("Thanks for playing! Goodbye!")
+                    break
             else:
                  continue
         elif players_number == dealers_number:
             print("You got it right!")
             play_again = input("Do you want to play again?")
             if play_again == "Yes":
-                 numer_of_guesses = 4
+                 numer_of_guesses = 3
                  dealers_number = random.randint(1,10)
                  continue
             else:
