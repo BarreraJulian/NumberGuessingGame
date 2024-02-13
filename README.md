@@ -5,7 +5,8 @@ Welcome to my Python Projects Collection! 🚀 This repository serves as a stora
 ## Projects Included:
 
 1. Number Guessing Game 🔢
-2. MORE COMING SOON..
+2. Basic Calculator
+3. MORE COMING SOON..
 
    
 ## How to Use:
